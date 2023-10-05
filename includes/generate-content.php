@@ -1,7 +1,7 @@
 <?php
 
 function fetch_from_openai($model, $prompt) {
-    $api_key = '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';  // Hardcoded API key for demonstration
+    $api_key = '"';  //Add Api Key. Fetch method to change
 
     // Determine the endpoint based on the model. Chat models like 'gpt-3.5-turbo' use a different endpoint.
     $endpoint = (strpos($model, 'gpt-3.5-turbo') !== false) ? 
