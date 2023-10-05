@@ -1,0 +1,149 @@
+/* Background for the entire page */
+body {
+    background-color: #ADD8E6; /* Light blue */
+}
+
+/* Admin page container to wrap everything */
+#ai-generate-form {
+    background-color: #fff; /* White background for contrast */
+    padding: 20px;
+    border-radius: 10px; /* Rounded edges */
+    max-width: 1600px; /* Limit width for better presentation */
+    margin: 20px auto; /* Centering */
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Bold headings */
+#ai-generate-form h1,
+#ai-generate-form label {
+    font-weight: bold;
+}
+
+/* Spacing between form elements */
+#ai-generate-form div {
+    margin-bottom: 20px;
+}
+
+/* Input and Textarea styling */
+#ai-generate-form input[type="text"],
+#ai-generate-form textarea,
+#ai-generate-form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Slightly rounded edges */
+}
+
+/* Button styling */
+#ai-generate-form button,
+#ai-generate-form input[type="submit"] {
+    background-color: #0073aa; /* WordPress blue */
+    color: #fff; /* White text */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px; /* Rounded edges */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+#ai-generate-form button:hover,
+#ai-generate-form input[type="submit"]:hover {
+    background-color: #005a87; /* Darken on hover */
+}
+    /* Modal styles */
+    .modal {
+        display: none; 
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0,0,0,0.4);
+        z-index: 9999; 
+    }
+
+    .modal-content {
+        background-color: #fefefe;
+        margin: 15% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 60%; 
+    }
+
+    #closeModal {
+        background-color: #f44336;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        float: right;
+        margin-top: 10px;
+    
+    }
+    form.wpaicg-grid-2 {
+        background-color: #fff; /* White background for contrast */
+        padding: 20px;
+        border-radius: 10px; /* Rounded edges */
+        max-width: 800px; /* Limit width for better presentation */
+        margin: 20px auto; /* Centering */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    }
+    #settings-form{
+        background-color: #fff; /* White background for contrast */
+        padding: 20px;
+        border-radius: 10px; /* Rounded edges */
+        max-width: 800px; /* Limit width for better presentation */
+        margin: 20px auto; /* Centering */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    }
+    textarea.wpaicg_template_section_result {
+        width: 100%;
+        margin: 10px;
+    }
+    textarea.wpaicg_template_content_result {
+        width: 100%;
+        margin: 10px;
+    }
+    textarea.wpaicg_template_image_prompt_result {
+        width: 100%;
+        margin: 10px;
+    }
+    .selectable-title {
+        cursor: pointer;
+        padding: 10px;
+        border: 1px solid #ccc;
+        margin: 5px 0;
+        transition: background-color 0.3s;
+    }
+    
+    .selectable-title:hover {
+        background-color: #f0f0f0;
+    }
+    .wpaicg_template_title_result {
+        display: none !important;
+    }
+    /* Left Content Styles */
+.wrap {
+    background-color: #fff; /* White background for contrast */
+    flex: 0 0 70%; /* Adjust width as needed */
+    padding-right: 20px;
+    border-radius: 10px; /* Rounded edges */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    height: 100%;
+}
+
+/* Right Content Styles */
+.right-content {
+    background-color: #fff; /* White background for contrast */
+    flex: 0 0 30%; /* Adjust width as needed */
+    padding-left: 20px;
+    border-radius: 10px; /* Rounded edges */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin-top: -94em;
+    /* float: right; */
+    margin-left: 80em;
+    width: 400px;
+    padding: 30px;
+}
